@@ -1,0 +1,26 @@
+html,body{
+	height: 100%;
+}
+body{
+	background: linear-gradient(to right, rgba(54,53,52,1) 0%, rgba(52,52,61,1) 53%, rgba(73,72,82,1) 100%);
+}
+
+h1{
+	color:#FFFF66;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.1em;
+	text-align:center;
+	text-shadow:0 0 0.5em ##131419;
+}
+.galeria{
+	display:flex;
+	justify-content:space-around;
+	margin:0 auto;
+	width:80%;
+}
+.galeria div{
+	filter:grayscale(1);
+}
+.galeria div:hover{
+	filter:grayscale(0);
+}
